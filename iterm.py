@@ -22,7 +22,7 @@ def func_slice(lst, index):
 				temp.append(value1[:ind2+1])
 				return temp
 		temp.append(value1)			
-	return temp					
+	
 list2 = func_slice(list2, func_index(list1, 9))
 list3 = func_slice(list3, func_index(list1, 2))
 print list2
