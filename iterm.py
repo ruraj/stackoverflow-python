@@ -1,3 +1,5 @@
+"""http://stackoverflow.com/questions/24825366/python-how-to-cut-a-list-which-contains-lists/24827627#24827627
+"""
 list1 = [ [1,2,3,4],     [5,6,7,8],     [9,10,11,12] ]
 list2 = [ [50,45,40,35], [30,25,20,15], [10,9,5,0]   ]
 list3 = [ [101,2,3,33],  [11,22,30,1],  [1,22,33,]   ]
@@ -21,7 +23,7 @@ def func_slice(lst, index):
 				return temp
 		temp.append(value1)			
 	return temp					
-list2 = func_slice(list2, func_index(list1, 7))
-list3 = func_slice(list3, func_index(list1, 7))
+list2 = func_slice(list2, func_index(list1, 9))
+list3 = func_slice(list3, func_index(list1, 2))
 print list2
 print list3
